@@ -1,0 +1,260 @@
+// -- Comotive brand stylesheet / overwrites minima theme //
+
+// ── Comotive brand tokens ──────────────────────────────────────
+$beige-light:   #F9F5ED;   // primary page background
+$beige-dark:    #F1EBE3;   // secondary background (footer, cards)
+$yellow:        #FFE999;   // highlight accent
+$blue-grey:     #B1CAD1;   // soft accent / borders
+$green:         #2B5D2C;   // brand green
+$navy:          #124559;   // brand navy — primary link/heading colour
+$ink:           #141414;   // body text
+
+// ── Minima variable overrides (must come before the import) ───
+$base-font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   17px;
+$base-line-height: 1.6;
+
+$background-color: $beige-light;
+$text-color:       $ink;
+$brand-color:      $navy;
+
+$grey-color:       lighten($ink, 35%);
+$grey-color-light: $blue-grey;
+$grey-color-dark:  $ink;
+
+@import "minima";
+
+// ── Global ─────────────────────────────────────────────────────
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: $navy;
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: $navy;
+  text-decoration: none;
+  border-bottom: 2px solid $yellow;
+
+  &:hover,
+  &:focus {
+    color: $green;
+    text-decoration: none;
+    border-bottom-color: $green;
+  }
+
+  &:visited {
+    color: $navy;
+  }
+}
+
+// The brand wordmark: always bold, always lowercase.
+.wordmark {
+  font-weight: 800;
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+}
+
+// ── Header ─────────────────────────────────────────────────────
+.site-header {
+  background: $beige-light;
+  border-top: none;
+  border-bottom: 1px solid $beige-dark;
+  min-height: 72px;
+}
+
+.site-title,
+.site-title:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+  color: $ink;
+  border-bottom: none;
+  line-height: 72px;
+
+  &:hover {
+    color: $navy;
+    border-bottom: none;
+  }
+}
+
+.site-logo {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.site-nav {
+  line-height: 72px;
+  background: transparent;
+  border: none;
+
+  .page-link {
+    color: $ink;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    margin-left: 24px;
+
+    &:hover {
+      color: $navy;
+      border-bottom-color: $yellow;
+    }
+  }
+
+  // Mobile menu panel picks up the beige, not white
+  @media screen and (max-width: 600px) {
+    background-color: $beige-dark;
+    border: 1px solid $blue-grey;
+
+    .page-link {
+      margin-left: 20px;
+      line-height: 2.2;
+    }
+  }
+}
+
+// ── Hero (home page) ───────────────────────────────────────────
+.hero {
+  padding: 72px 0 56px;
+  text-align: center;
+
+  .hero-logo {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 28px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: lowercase;
+    letter-spacing: -0.03em;
+    color: $ink;
+    margin-bottom: 8px;
+  }
+
+  .tagline {
+    font-size: 1.25rem;
+    color: $navy;
+    max-width: 540px;
+    margin: 0 auto 32px;
+  }
+}
+
+.hero-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  a {
+    display: inline-block;
+    padding: 10px 26px;
+    border-radius: 4px;
+    font-weight: 600;
+    border-bottom: none;
+  }
+
+  .btn-primary {
+    background: $navy;
+    color: $beige-light;
+
+    &:hover { background: $green; color: $beige-light; }
+  }
+
+  .btn-secondary {
+    background: $beige-dark;
+    color: $navy;
+    border: 1px solid $blue-grey;
+
+    &:hover { border-color: $green; color: $green; }
+  }
+}
+
+// ── Cards / list pages ─────────────────────────────────────────
+.card-list {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.card {
+  background: $beige-dark;
+  border: 1px solid darken($beige-dark, 6%);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+
+  h3 {
+    margin: 0 0 4px;
+
+    a { border-bottom: none; }
+  }
+
+  .card-meta {
+    font-size: 0.85rem;
+    color: lighten($ink, 30%);
+    margin-bottom: 6px;
+  }
+
+  p { margin-bottom: 0; }
+}
+
+// Tag chips (used on project pages)
+.tags {
+  margin: 4px 0 24px;
+
+  .tag {
+    display: inline-block;
+    background: $yellow;
+    color: darken($green, 5%);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-right: 6px;
+  }
+}
+
+article {
+  .date {
+    color: lighten($ink, 30%);
+    font-size: 0.9rem;
+  }
+}
+
+// ── Footer ─────────────────────────────────────────────────────
+.site-footer {
+  background: $beige-dark;
+  border-top: 1px solid $blue-grey;
+  padding: 32px 0;
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-brand {
+    font-weight: 800;
+    text-transform: lowercase;
+    color: $ink;
+  }
+
+  .footer-meta {
+    color: lighten($ink, 25%);
+    font-size: 0.9rem;
+
+    a { border-bottom-color: $blue-grey; }
+  }
+}
