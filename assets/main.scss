@@ -56,9 +56,9 @@ a {
 
 // The brand wordmark: always bold, always lowercase.
 .wordmark {
-  font-weight: 600;
+  font-weight: 400;
   text-transform: lowercase;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.2em;
 }
 
 // ── Header ─────────────────────────────────────────────────────
@@ -75,9 +75,9 @@ a {
   align-items: center;
   gap: 12px;
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: lowercase;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: $ink;
   border-bottom: none;
   line-height: 72px;
@@ -136,7 +136,7 @@ a {
 
   h1 {
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 700;
     text-transform: lowercase;
     letter-spacing: -0.03em;
     color: $ink;
@@ -248,7 +248,7 @@ article {
   }
 
   .footer-brand {
-    font-weight: 800;
+    font-weight: 700;
     text-transform: lowercase;
     color: $ink;
   }
