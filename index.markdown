@@ -12,7 +12,3 @@ title: Home
     <a class="btn-secondary" href="mailto:{{ site.email }}">Get in touch</a>
   </div>
 </div>
-
-## What we do
-
-**comotive** builds tools and maps that help agencies and communities plan better transit networks. Full site coming soon — in the meantime, browse our [projects]({{ "/projects/" | relative_url }}) or reach out at [{{ site.email }}](mailto:{{ site.email }}).

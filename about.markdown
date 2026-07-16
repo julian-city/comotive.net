@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-**comotive** is a Montréal-based practice working at the intersection of transit network planning, geospatial analysis, and design.
+**comotive** is a Montréal-based practice specializing in public transit planning technology and network design.
 
-We believe good transit starts with good planning tools: clear maps, honest data, and design that helps people understand how their networks work — and how they could work better.
+Our mission is to empower policymakers, planners, researchers and citizens globally in developing, communicating, and realizing their visions for transportation systems that better serve their communities.
 
-More about the team and our approach is coming soon. Questions? Write to us at [{{ site.email }}](mailto:{{ site.email }}).
+Our expertise includes developing transit planning software, bus network redesign, transit data analysis and visualisation, and policy communication for various audiences.
+
+We're looking forward to sharing more about us and our work soon. Get in touch at [{{ site.email }}](mailto:{{ site.email }}).
