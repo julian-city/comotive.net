@@ -69,6 +69,12 @@ a {
   min-height: 72px;
 }
 
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .site-title,
 .site-title:visited {
   display: inline-flex;
@@ -123,31 +129,58 @@ a {
   }
 }
 
-// ── Hero (home page) ───────────────────────────────────────────
-.hero {
-  padding: 72px 0 56px;
-  text-align: center;
+// ── Video hero (home page) ─────────────────────────────────────
+.video-hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $beige-light;       // shows while video loads
+}
 
-  .hero-logo {
-    width: 140px;
-    height: 140px;
-    margin-bottom: 28px;
-  }
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+  opacity: 0.18;                   // tune this — lower = more subtle
+  pointer-events: none;
+}
+
+.video-hero-overlay {
+  position: relative;              // sits above the video
+  z-index: 1;
+  text-align: center;
+  padding: 0 24px;
 
   h1 {
-    font-size: 3rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 700;
-    text-transform: lowercase;
-    letter-spacing: -0.03em;
     color: $ink;
-    margin-bottom: 8px;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    max-width: 680px;
+    margin: 0 auto;
   }
+}
 
-  .tagline {
-    font-size: 1.25rem;
+// ── Below-the-fold message ─────────────────────────────────────
+.hero-message {
+  text-align: center;
+  padding: 72px 24px 80px;
+
+  .hero-message-text {
+    font-size: 1.3rem;
     color: $navy;
-    max-width: 540px;
-    margin: 0 auto 32px;
+    max-width: 600px;
+    margin: 0 auto 36px;
+    line-height: 1.55;
   }
 }
 
