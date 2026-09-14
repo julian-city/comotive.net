@@ -2,7 +2,7 @@
 ---
 // -- Comotive brand stylesheet / overwrites minima theme //
 
-// ── Comotive brand tokens ──────────────────────────────────────
+// -- Comotive brand tokens --------------------------------------
 $beige-light:   #F9F5ED;   // primary page background
 $beige-dark:    #F1EBE3;   // secondary background (footer, cards)
 $yellow:        #FFE999;   // highlight accent
@@ -11,7 +11,7 @@ $green:         #2B5D2C;   // brand green
 $navy:          #124559;   // brand navy — primary link/heading colour
 $ink:           #141414;   // body text
 
-// ── Minima variable overrides (must come before the import) ───
+// -- Minima variable overrides (must come before the import) ---
 $base-font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   17px;
 $base-line-height: 1.6;
@@ -26,7 +26,7 @@ $grey-color-dark:  $ink;
 
 @import "minima";
 
-// ── Global ─────────────────────────────────────────────────────
+// -- Global -----------------------------------------------------
 body {
   -webkit-font-smoothing: antialiased;
 }
@@ -61,7 +61,7 @@ a {
   letter-spacing: 0.2em;
 }
 
-// ── Header ─────────────────────────────────────────────────────
+// -- Header -----------------------------------------------------
 .site-header {
   background: $beige-light;
   border-top: none;
@@ -70,11 +70,9 @@ a {
 }
 
 .site-header .wrapper {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  max-width: none;       // ← override Minima's ~740px cap
-  padding-left: 32px;    // ← manual edge padding instead
+  max-width: none;       // override Minima's ~740px cap
+  padding-left: 32px;    // manual edge padding instead
   padding-right: 32px;
 }
 
@@ -104,7 +102,7 @@ a {
 }
 
 .site-nav {
-  position: static;       // ← override Minima's absolute positioning
+  position: static;       // override Minima's absolute positioning
   line-height: 72px;
   background: transparent;
   border: none;
@@ -133,7 +131,7 @@ a {
   }
 }
 
-// ── Video hero (home page) ─────────────────────────────────────
+// -- Video hero (home page) -------------------------------------
 .video-hero {
   position: relative;
   width: 100%;
@@ -153,7 +151,7 @@ a {
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  opacity: 0.18;                   // tune this — lower = more subtle
+  opacity: 0.18;             
   pointer-events: none;
 }
 
@@ -174,7 +172,7 @@ a {
   }
 }
 
-// ── Below-the-fold message ─────────────────────────────────────
+// -- Below-the-fold message -------------------------------------
 .hero-message {
   text-align: center;
   padding: 72px 24px 80px;
@@ -218,7 +216,7 @@ a {
   }
 }
 
-// ── Cards / list pages ─────────────────────────────────────────
+// -- Cards / list pages -----------------------------------------
 .card-list {
   list-style: none;
   margin-left: 0;
@@ -270,7 +268,7 @@ article {
   }
 }
 
-// ── Footer ─────────────────────────────────────────────────────
+// -- Footer -----------------------------------------------------
 .site-footer {
   background: $beige-dark;
   border-top: 1px solid $blue-grey;
