@@ -32,13 +32,4 @@ Julian is the co-founder of [Activate Transit Windsor-Essex](https://activatetra
 
 Julian is fluent in English, French and Spanish.
 
-Education
-* Masters or Urban Planning, Transportation Planning concentration / McGill University (2022)
-* BSc Global Resource Systems / University of British Columbia (2018)
-
-Professional experience
-* 2025 - : Planner - Bus Priority Infrastructure / Société de transport de Montréal
-* 2023 - 2025: Transit Planner / Société de transport de Montréal
-* 2018 - 2020: Project Coordinator and Researcher / Workforce WindsorEssex
-
 **Get in touch at julian @ comotive.net**

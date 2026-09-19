@@ -229,11 +229,19 @@ a {
   border-radius: 6px;
   padding: 20px 24px;
   margin-bottom: 16px;
+  position: relative;
+  cursor: pointer;
 
   h3 {
     margin: 0 0 4px;
 
     a { border-bottom: none; }
+
+    a::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+    }
   }
 
   .card-meta {
@@ -244,6 +252,15 @@ a {
 
   p { margin-bottom: 0; }
 }
+
+  .card-meta {
+    font-size: 0.85rem;
+    color: lighten($ink, 30%);
+    margin-bottom: 6px;
+  }
+
+  p { margin-bottom: 0; }
+
 
 // Tag chips (used on project pages)
 .tags {
@@ -313,12 +330,6 @@ article {
   margin: 0 28px 16px 0;
 }
 
-.profile-text {
-  p:first-child {
-    margin-top: 0;
-  }
-}
-
 // Stack vertically on small screens
 @media screen and (max-width: 600px) {
   .profile-photo {
@@ -327,10 +338,6 @@ article {
     margin: 0 auto 24px;
     width: 160px;
     height: 160px;
-  }
-
-  .profile-section {
-    text-align: center;
   }
 }
 
