@@ -1,0 +1,31 @@
+en:
+  nav:
+    projects: "Projects"
+    about: "About"
+    blog: "Blog"
+  hero_headline: "The future of transit planning is open."
+  hero_message: "Unlock open-source software to design and plan the public transport networks of tomorrow."
+  btn_projects: "See our projects"
+  btn_about: "About"
+  footer_tagline: "Transit planning with open software"
+  lang_toggle: "FR"
+  lang_label: "Français"
+  coming_soon: "Coming soon."
+  not_found_title: "Page not found :("
+  not_found_message: "The requested page could not be found."
+
+fr:
+  nav:
+    projects: "Projets"
+    about: "À propos"
+    blog: "Blogue"
+  hero_headline: "L'avenir de la planification du transport en commun est ouvert."
+  hero_message: "Exploiter les logiciels libres pour concevoir et planifier les réseaux de transport en commun de demain."
+  btn_projects: "Voir nos projets"
+  btn_about: "À propos"
+  footer_tagline: "Planification du transport en commun avec des logiciels libres"
+  lang_toggle: "EN"
+  lang_label: "English"
+  coming_soon: "À venir."
+  not_found_title: "Page introuvable :("
+  not_found_message: "La page demandée n'a pas été trouvée."

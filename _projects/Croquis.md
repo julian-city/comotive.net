@@ -3,6 +3,8 @@ layout: project
 title: "Croquis"
 description: "Open-source transit sketch planning and GTFS production software"
 tags: [transit, GTFS, open-source]
+lang: en
+permalink: /projects/croquis/
 ---
 
 Croquis (*Crow-KEY*) an open-source transit sketch planning and GTFS production tool. It was designed to rapidly produce realistic models of proposed or real networks and schedules. This R package and Shiny App includes the following functionalities:

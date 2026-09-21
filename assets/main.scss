@@ -304,7 +304,7 @@ article {
   }
 }
 
-// ── Profile section (About page) ───────────────────────────────
+// --- Profile section (About page) --------------------
 
 .profile-section {
   margin: 32px 0;
@@ -332,7 +332,7 @@ article {
   }
 }
 
-// ── Standalone buttons (reusable outside the hero) ─────────────
+//-----Standalone buttons (reusable outside the hero)--------
 
 .btn-primary {
   display: inline-block;
@@ -371,7 +371,7 @@ article {
   }
 }
 
-// ── Project video ──────────────────────────────────────────────
+// --- Project video ----------------------------
 .project-video {
   width: 100%;
   border-radius: 6px;
@@ -381,4 +381,38 @@ article {
 
 .project-cta {
   margin: 32px 0;
+}
+
+// -- Language toggle ----
+
+.lang-toggle {
+  display: inline-block;
+  margin-left: 24px;
+  padding: 3px 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: $navy;
+  background: $beige-dark;
+  border: 1px solid $blue-grey;
+  border-radius: 4px;
+  border-bottom: 1px solid $blue-grey;  // override the default link underline
+  vertical-align: middle;
+  line-height: 1.6;
+
+  &:hover {
+    color: $green;
+    border-color: $green;
+    border-bottom-color: $green;
+  }
+}
+
+// Mobile: place the toggle inside the dropdown menu
+@media screen and (max-width: 600px) {
+  .lang-toggle {
+    display: block;
+    margin: 8px 20px;
+    text-align: center;
+    max-width: 60px;
+  }
 }

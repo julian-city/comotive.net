@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Projects
+title: Projets
 permalink: /projects/
-lang: en
+lang: fr
 ---
 
 # {{ site.data.i18n[site.active_lang].nav.projects }}

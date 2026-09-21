@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Home
-lang: en
+title: Accueil
+lang: fr
 permalink: /
 ---
 
