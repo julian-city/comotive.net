@@ -25,7 +25,7 @@ Julian est un planificateur de transport en commun canadien basé à Montréal.
 
 Pendant sa maîtrise à McGill, il a été initié à l'univers des logiciels libres de planification des transports en R, notamment des outils de modélisation de l'accessibilité en transport en commun sur des réseaux existants et projetés.
 
-Julian s'est joint à la Société de transport de Montréal (STM) comme Conseiller en développement des réseaux en 2023. Il a collaboré avec d'autres professionnels à la [refonte du réseau de bus 2026](https://www.stm.info/fr/a-propos/grands-projets/grands-projets-bus/refonte-du-reseau-bus). Les méthodes qu'il a développées pour l'optimisation de l'espacement des arrêts ont mené aux interventions sur les lignes 18, 161, 24, 51 et 189, qui offrent désormais des trajets plus courts et plus fiables.
+Julian s'est joint à la Société de transport de Montréal (STM) comme Conseiller en développement des réseaux en 2023. Il a collaboré avec d'autres professionnels à la [refonte du réseau bus 2026](https://www.stm.info/fr/a-propos/grands-projets/grands-projets-bus/refonte-du-reseau-bus). Les méthodes qu'il a développées pour l'optimisation de l'espacement des arrêts ont mené aux interventions sur les lignes 18 et 161, qui offrent désormais des trajets plus courts et plus fiables.
 
 Il a identifié une lacune en matière d'outils accessibles permettant de comparer les coûts et les avantages des scénarios de réseaux de transport en commun. Pour y répondre, il a développé et publié [Croquis](https://croquis.comotive.net/), un logiciel libre de planification de transport collectif et de production GTFS.
 

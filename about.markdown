@@ -24,7 +24,7 @@ Julian is a Canadian transit planner based in Montréal.
 
 During his Masters at McGill, he was introduced to the universe of open-source transportation planning software in R, including tools for modelling transit accessibility on real and planned networks. 
 
-Julian joined the Société de Transport de Montréal (STM) as a Transit Planner in 2023. He collaborated with other planners on the [2026 bus network redesign](https://www.stm.info/fr/a-propos/grands-projets/grands-projets-bus/refonte-du-reseau-bus). The methods he developed for bus stop spacing optimization were foundational to improvements to lines 18, 24, 51, 161, and 189, which now offer shorter and more reliable trips.
+Julian joined the Société de Transport de Montréal (STM) as a Transit Planner in 2023. He collaborated with other planners on the [2026 bus network redesign](https://www.stm.info/fr/a-propos/grands-projets/grands-projets-bus/refonte-du-reseau-bus). The methods he developed for bus stop spacing optimization were foundational to improvements to lines 18 and 161, which now offer shorter and more reliable trips.
 
 He identified a gap for accessible tools that compare the costs and benefits of transit network design scenarios. To address this, he developed and released [Croquis](https://croquis.comotive.net/), an open-source transit sketch planning and GTFS production software.
 
